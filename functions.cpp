@@ -1,3 +1,5 @@
+// emcc -s "EXPORTED_RUNTIME_METHODS=['_snprintf_example']" --no-entry functions.cpp -o functions.wasm
+
 #include <stdio.h>
 
 extern "C"
